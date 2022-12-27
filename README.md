@@ -1,7 +1,7 @@
 # Defaund
 v0.2.1
 
-#### Setup validator name
+#### Setup validator name (replace the field "YOUR_MONIKER_GOES_HERE" with your own)
 ```
 MONIKER="YOUR_MONIKER_GOES_HERE"
 ```
@@ -95,7 +95,7 @@ defundd keys add wallet
 defundd keys add wallet --recover
 ```
 #### Wait 1-2 hours until the node is fully synchronized and create a validator 
-## Please make sure you have adjusted moniker, identity, details and website to match your values.
+## Please make sure you have adjusted moniker, identity, details and website to match your values. (You can leave just "YOUR_MONIKER_NAME" and other values such as "YOUR_KEYBASE_ID", "YOUR_DETAILS", "YOUR_WEBSITE_URL" just erase if you do not have them.)  
 ```
 defundd tx staking create-validator \
 --amount=1000000ufetf \
