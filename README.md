@@ -85,6 +85,15 @@ sudo systemctl start defundd && journalctl -u defundd -f --no-hostname -o cat
 ```
 curl -s localhost:26657/status | jq .result.sync_info.catching_up
 ```
+## Below enter one of the commands to create a new wallet or restore the old one depending on what you need. 
+#### Add new key 
+```
+defundd keys add wallet
+```
+#### Recover existing key
+```
+defundd keys add wallet --recover
+```
 #### Wait 1-2 hours until the node is fully synchronized and create a validator 
 ## Please make sure you have adjusted moniker, identity, details and website to match your values.
 ```
