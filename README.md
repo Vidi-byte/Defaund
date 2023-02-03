@@ -1,4 +1,4 @@
-# Defaund
+# Defund
 v0.2.1
 
 #### Setup validator name (replace the field "YOUR_MONIKER_GOES_HERE" with your own)
